@@ -1,133 +1,118 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    position: absolute;
+    background-color: #0776A0;
     width: 960px;
-    height: 90px;
-    left: 0px;
-    top: 0px;
-}
-main {
-    margin-top: 90px;
 }
 
-.rozklad {
+header img {
+    padding: 20px 15px 21px 15px;
+}
+
+header a {
+    border: 1px solid #FFB600;
+    background-color: #FFB600;
+    border-radius: 5px;
     position: absolute;
-    width: 135px;
-    height: 30px;
-    left: 155px;
-    top: 130px;
+    margin-top: 30px;
+    left: 135px;
+    top: 35px;
+}
 
-    font-family: 'Roboto';
+ul {
+    position: absolute;
+    width: 868px;
+    height: 210px;
+    left: 41px;
+    top: 612px;
+    list-style: url("https://learn.logikaschool.com/uploads/2021/01/Arrow%201_0_1611261359.svg");
+}
+
+.big-one {
+    position: absolute;
+    width: 396px;
+    height: 65px;
+    left: 280px;
+    top: 135px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-
-    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
 }
 
-.pro-zannyattya {
+.big-two {
     position: absolute;
-    width: 130px;
-    height: 30px;
-    left: 420px;
-    top: 130px;
-
-    font-family: 'Roboto';
+    width: 536px;
+    height: 66px;
+    left: 42px;
+    top: 545px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-
-    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FF2C00;
 
 }
 
-.adresy{
+.big-three {
     position: absolute;
-    width: 170px;
-    height: 30px;
-    left: 670px;
-    top: 130px;
-
-    font-family: 'Roboto';
+    width: 596px;
+    height: 117px;
+    left: 182px;
+    top: 913px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-
-    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    border-top: 5px solid black;
 }
 
-h1 {
+.img-one {
     position: absolute;
-    width: 340px;
-    height: 75px;
+    width: 240px;
+    height: 250px;
+    left: 40px;
+    top: 235px;
+}
+
+.img-two {
+    position: absolute;
+    width: 200px;
+    height: 250px;
     left: 310px;
-    top: 230px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 75px;
-    color: #000000;
+    top: 235px;
 }
 
-p {
+.img-three {
     position: absolute;
-    width: 845px;
-    height: 200px;
-    left: 60px;
-    top: 585px;
+    width: 380px;
+    height: 250px;
+    left: 540px;
+    top: 235px;
+}
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 25px;
-
-    color: #000000;
+.smile {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding-left: 25px;
 }
 
 .email {
     position: absolute;
-    height: 30px;
-    left: 25px;
-    top: 870px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    border-collapse: collapse;
-    border: 20px solid black;
-    border-radius: 0px;
-
-    color: #000000;
-    background-color: white;
+    width: 120px;
+    height: 29px;
+    left: 79px;
+    top: 1176px;
 }
 
 .tel {
     position: absolute;
-    height: 30px;
-    left: 25px;
-    top: 960px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    border: 20px solid black;
-    border-radius: 0px;
-
-    color: #000000;
+    width: 801px;
+    height: 37px;
+    left: 79px;
+    top: 1234px;
 }
